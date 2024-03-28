@@ -14,16 +14,16 @@ from func import mk_mmd_loss
 
 support_mmd=False
 global_mmd=True
-mmd_weight=2 # action 1, people 2
+mmd_weight=2
 
 def get_args():
     parser = argparse.ArgumentParser(description='')
     parser.add_argument('--batch_size', type=int, default=256)
     parser.add_argument('--hidden_dim', type=int, default=64)
-    parser.add_argument("--data_path",type=str,default="./data")
+    parser.add_argument("--data_path",type=str,default="./data/fall")
     parser.add_argument("--cpu", action="store_true",default=False)
     parser.add_argument("--cuda", type=str, default='0')
-    parser.add_argument('--lr', type=float, default=0.0005) #action 0.0005, people 0.001
+    parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument("--test_list", type=int, nargs='+', default=[0])
     parser.add_argument('--epoch', type=int, default=30)
     parser.add_argument('--task', type=str, default="action")
@@ -40,9 +40,9 @@ def get_args():
 
 def k_shot(origin_data,embedding,label,k=5,task="action"):
     if task=="action":
-        class_num=6
+        class_num=5
     elif task=="people":
-        class_num=8
+        class_num=10
     else:
         print("ERROR")
         exit(-1)
@@ -93,9 +93,9 @@ def dimension_reducation(data_loader,input_dim=(1,100,52),output_dim=128):
 
 def top_knn(origin_data,embedding,data_label,k=5,n=None,top_prop=0.5,task="action",mode=0):
     if task=="action":
-        class_num=6
+        class_num=5
     elif task=="people":
-        class_num=8
+        class_num=10
     else:
         print("ERROR")
         exit(-1)
@@ -218,9 +218,9 @@ def iteration(model,classifier,optim,train_loader,test_loader,support_loader,glo
         x=x.to(device)
         label=label.to(device)
         if task == "action":
-            class_num=6
+            class_num=5
         elif task == "people":
-            class_num=8
+            class_num=10
         else:
             print("ERROR")
             exit(-1)
@@ -326,12 +326,12 @@ def main():
     device = torch.device(device_name if torch.cuda.is_available() and not args.cpu else 'cpu')
     task=args.task
     if task == "action":
-        class_num = 6
-        train_data,_=load_zero_shot(test_people_list=args.test_list+['2'], data_path=args.data_path, task=task)
+        class_num = 5
+        train_data,_=load_zero_shot(test_people_list=args.test_list, data_path=args.data_path, task=task)
         _,test_data = load_zero_shot(test_people_list=args.test_list, data_path=args.data_path, task=task)
     elif task == "people":
-        class_num = 8
-        train_data, _ = load_zero_shot(test_action_list=args.test_list+['1'], data_path=args.data_path, task=task)
+        class_num = 10
+        train_data, _ = load_zero_shot(test_action_list=args.test_list, data_path=args.data_path, task=task)
         _, test_data = load_zero_shot(test_action_list=args.test_list, data_path=args.data_path, task=task)
     else:
         print("ERROR")
