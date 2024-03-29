@@ -2,7 +2,7 @@
 
 **Article:** under way
 
-
+![](./img/model.png)
 
 ## 1. Data
 
@@ -17,6 +17,8 @@ WiGesture & WiFall
 
 
 ## 2. Run the model
+
+![](./img/network.png)
 
 To run the model, follow these instructions based on the dataset you are using. For the WiGesture Dataset, use the `train.py` script, and for the WiFall Dataset, use the `train_fall.py` script. The steps to execute them are the same, and here we provide an example using `train.py`.
 
