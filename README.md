@@ -1,6 +1,6 @@
 # KNN-MMD
 
-**Article:** under way
+**Article:** KNN-MMD: Cross Domain Alignment Based on Local Distribution (under way)
 
 ![](./img/model.png)
 
