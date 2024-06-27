@@ -8,11 +8,15 @@
 
 ### 1.1 Dataset
 
-WiGesture & WiFall
+Public Dataset: [WiGesture](https://paperswithcode.com/dataset/wigesture)
+
+Proposed Dataset: WiFall (./WiFall)
 
 
 
 ### 1.2 Data Preparation
+
+Refer to [RS2002/CSI-BERT: Official Repository for The Paper, Finding the Missing Data: A BERT-inspired Approach Against Package Loss in Wireless Sensing (github.com)](https://github.com/RS2002/CSI-BERT)
 
 
 
