@@ -1,4 +1,4 @@
-#WiFall: Wireless Sensing Dataset for Fall Detection, Action Recognition and People ID Identification with ESP32-S3
+# WiFall: Wireless Sensing Dataset for Fall Detection, Action Recognition and People ID Identification with ESP32-S3
 
 The data format and collection configuration of WiFall is same as [WiGesture Dataset | Papers With Code](https://paperswithcode.com/dataset/wigesture).
 
