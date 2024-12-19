@@ -1,6 +1,6 @@
 # KNN-MMD
 
-**Article:** KNN-MMD: Cross Domain Alignment Based on Local Distribution (under way)
+**Article:** Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Guangxu Zhu*, "[KNN-MMD: Cross Domain Wi-Fi Sensing Based on Local Distribution Alignment](https://arxiv.org/abs/2412.04783) "(under way)
 
 ![](./img/model.png)
 
@@ -39,3 +39,15 @@ Make sure to replace the following placeholders with the appropriate values:
 - `<learning rate>`: Specify the desired learning rate.
 
 Once you have set the appropriate values, run the command in your terminal to start the training process.
+
+## 3. Reference
+
+```
+@article{zhao2024knn,
+  title={KNN-MMD: Cross Domain Wi-Fi Sensing Based on Local Distribution Alignment},
+  author={Zhao, Zijian and Cai, Zhijie and Chen, Tingwei and Li, Xiaoyang and Li, Hang and Zhu, Guangxu},
+  journal={arXiv preprint arXiv:2412.04783},
+  year={2024}
+}
+```
+
