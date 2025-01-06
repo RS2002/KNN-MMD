@@ -328,10 +328,12 @@ def main():
     if task == "action":
         class_num = 6
         train_data,_=load_zero_shot(test_people_list=args.test_list+['2'], data_path=args.data_path, task=task)
+        # train_data,_=load_zero_shot(test_people_list=args.test_list, data_path=args.data_path, task=task)
         _,test_data = load_zero_shot(test_people_list=args.test_list, data_path=args.data_path, task=task)
     elif task == "people":
         class_num = 8
         train_data, _ = load_zero_shot(test_action_list=args.test_list+['1'], data_path=args.data_path, task=task)
+        # train_data, _ = load_zero_shot(test_action_list=args.test_list, data_path=args.data_path, task=task)
         _, test_data = load_zero_shot(test_action_list=args.test_list, data_path=args.data_path, task=task)
     else:
         print("ERROR")
