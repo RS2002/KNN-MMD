@@ -43,11 +43,14 @@ Once you have set the appropriate values, run the command in your terminal to st
 ## 3. Reference
 
 ```
-@article{zhao2024knn,
-  title={KNN-MMD: Cross Domain Wi-Fi Sensing Based on Local Distribution Alignment},
-  author={Zhao, Zijian and Cai, Zhijie and Chen, Tingwei and Li, Xiaoyang and Li, Hang and Zhu, Guangxu},
-  journal={arXiv preprint arXiv:2412.04783},
-  year={2024}
+@misc{zhao2025knnmmdcrossdomainwireless,
+      title={KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment}, 
+      author={Zijian Zhao and Zhijie Cai and Tingwei Chen and Xiaoyang Li and Hang Li and Qimei Chen and Guangxu Zhu},
+      year={2025},
+      eprint={2412.04783},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.04783}, 
 }
 ```
 
