@@ -1,6 +1,6 @@
 # KNN-MMD
 
-**Article:** Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu*, "[KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment](https://arxiv.org/abs/2412.04783) "(under review, IEEE Transactions on Cognitive Communications and Networking (TCCN))
+**Article:** Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu*, "[KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment](https://arxiv.org/abs/2412.04783) "(under review, IEEE Transactions on Mobile Computing (TMC))
 
 ![](./img/model.png)
 
