@@ -6,6 +6,8 @@ Journal Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qi
 
 Conference Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "Does MMD Really Align? A Cross Domain Wireless Sensing Method via Local Distribution", IEEE/CIC ICCC 2025
 
+**Notice:** We have uploaded our dataset ([RS2002/WiFall · Datasets at Hugging Face](https://huggingface.co/datasets/RS2002/WiFall)) to Hugging Face.
+
 
 
 ![](./img/model.png)
