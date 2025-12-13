@@ -2,9 +2,10 @@
 
 **Article:**
 
-Journal Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "[KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment](https://arxiv.org/abs/2412.04783) "(under review, IEEE Transactions on Mobile Computing (TMC))
+Journal Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "[KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment](https://arxiv.org/abs/2412.04783) , IEEE Transactions on Mobile Computing (TMC), 2025
 
 Conference Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "[Does MMD Really Align? A Cross Domain Wireless Sensing Method via Local Distribution](https://ieeexplore.ieee.org/document/11149311)", IEEE/CIC ICCC 2025
+
 **Patent:** 赵子健, 朱光旭, 陈琪美, 韩凯峰 "基于少样本学习的模型对对象识别的方法及相关设备"（专利号：ZL202411074110，2024）.
 
 **Notice:** We have uploaded our dataset ([RS2002/WiFall · Datasets at Hugging Face](https://huggingface.co/datasets/RS2002/WiFall)) to Hugging Face.
