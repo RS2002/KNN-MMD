@@ -2,7 +2,7 @@
 
 **Article:**
 
-Journal Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "[KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment](https://arxiv.org/abs/2412.04783) , IEEE Transactions on Mobile Computing (TMC), 2025
+Journal Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "[KNN-MMD: Cross Domain Wireless Sensing Via Local Distribution Alignment](https://ieeexplore.ieee.org/document/11301623) , IEEE Transactions on Mobile Computing (TMC), 2025
 
 Conference Version: Zijian Zhao, Zhijie Cai, Tingwei Chen, Xiaoyang Li, Hang Li, Qimei Chen, Guangxu Zhu\*, "[Does MMD Really Align? A Cross Domain Wireless Sensing Method via Local Distribution](https://ieeexplore.ieee.org/document/11149311)", IEEE/CIC ICCC 2025
 
@@ -55,15 +55,17 @@ Once you have set the appropriate values, run the command in your terminal to st
 ## 3. Reference
 
 ```
-@misc{zhao2025knnmmdcrossdomainwireless,
-      title={KNN-MMD: Cross Domain Wireless Sensing via Local Distribution Alignment}, 
-      author={Zijian Zhao and Zhijie Cai and Tingwei Chen and Xiaoyang Li and Hang Li and Qimei Chen and Guangxu Zhu},
-      year={2025},
-      eprint={2412.04783},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2412.04783}, 
-}
+@ARTICLE{11301623,
+  author={Zhao, Zijian and Cai, Zhijie and Chen, Tingwei and Li, Xiaoyang and Li, Hang and Chen, Qimei and Zhu, Guangxu},
+  journal={IEEE Transactions on Mobile Computing}, 
+  title={KNN-MMD: Cross Domain Wireless Sensing Via Local Distribution Alignment}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-18},
+  keywords={Channel state information;cross-domain wi-fi sensing;domain alignment;few-shot learning;k-nearest neighbors;maximum mean discrepancy},
+  doi={10.1109/TMC.2025.3644902}}
+
 ```
 
 ```
